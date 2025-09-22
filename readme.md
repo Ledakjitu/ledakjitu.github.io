@@ -1,4 +1,4 @@
-# Ledakjitu - GitHub Pages Website
+## Ledakjitu - GitHub Pages Website
 
 Selamat datang di repository **ledakjitu.github.io**  
 Ini adalah situs statis resmi yang di-host langsung menggunakan [GitHub Pages](https://pages.github.com/).
