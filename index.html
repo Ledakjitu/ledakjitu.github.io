@@ -8,14 +8,18 @@
   <link rel="canonical" href="https://ledakjitu.github.io/">
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <script async custom-element="amp-img" src="https://cdn.ampproject.org/v0/amp-img-0.1.js"></script>
+  <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   <style amp-custom>
     body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #333; }
     header { background-color: rgba(255, 255, 255, 0.9); color: #333; text-align: center; padding: 30px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
     section { margin: 20px; padding: 20px; background: rgba(255, 255, 255, 0.95); border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+    .link-card { display: flex; flex-direction: column; align-items: center; padding: 15px; background: rgba(255, 255, 255, 0.9); border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease; width: 150px; margin: 10px; }
+    .link-card:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+    .link-card a { text-decoration: none; color: inherit; display: flex; flex-direction: column; align-items: center; }
+    .link-icon { width: 50px; height: 50px; margin-bottom: 10px; }
+    .link-desc { font-size: 12px; text-align: center; color: #666; margin-bottom: 10px; }
     .button-grid { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; }
-    .button-link { display: inline-block; padding: 15px 20px; background: linear-gradient(135deg, #007bff 0%, #0056b3 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: all 0.3s ease; min-width: 150px; max-width: 200px; }
-    .button-link:hover { background: linear-gradient(135deg, #0056b3 0%, #004085 100%); box-shadow: 0 6px 12px rgba(0,0,0,0.3); transform: translateY(-2px); }
     footer { text-align: center; padding: 20px; background: rgba(0, 0, 0, 0.8); color: white; }
     h1, h2 { margin-bottom: 20px; }
   </style>
@@ -62,36 +66,158 @@
   <section id="main-links">
     <h2>Link Utama Situs</h2>
     <div class="button-grid">
-      <a href="https://ledakjitu.org" target="_blank" rel="noopener" class="button-link">ledakjitu.org</a>
-      <a href="https://ledakjitu.net" target="_blank" rel="noopener" class="button-link">ledakjitu.net</a>
-      <a href="https://ledakjitu.org" target="_blank" rel="noopener" class="button-link">ledakjitu,org</a>
+      <div class="link-card">
+        <a href="https://ledakjitu.org" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/internetexplorer.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Situs Utama"></amp-img>
+          <div class="link-desc">Akses situs utama LedakJitu untuk pengalaman gaming lengkap.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://ledakjitu.net" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/internetexplorer.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Situs Alternatif"></amp-img>
+          <div class="link-desc">Varian situs alternatif dengan fitur serupa.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://ledakjitu.org" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/internetexplorer.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Situs Org"></amp-img>
+          <div class="link-desc">Link utama dengan konten eksklusif.</div>
+        </a>
+      </div>
     </div>
   </section>
 
   <section id="social-links">
     <h2>Link Sosial Media dan Platform Lain</h2>
     <div class="button-grid">
-      <a href="https://heylink.me/ledakjitu/cv/20078691/" target="_blank" rel="noopener" class="button-link">HeyLink CV</a>
-      <a href="https://heycard.link/ledakjitu" target="_blank" rel="noopener" class="button-link">HeyCard</a>
-      <a href="https://heylink.me/ledakjitu/" target="_blank" rel="noopener" class="button-link">HeyLink Utama</a>
-      <a href="https://linktr.ee/ledakjitu" target="_blank" rel="noopener" class="button-link">Linktree</a>
-      <a href="https://www.karyakarsa.com/ledakjitu/info" target="_blank" rel="noopener" class="button-link">KaryaKarsa Info</a>
-      <a href="https://www.karyakarsa.com/ledakjitu/v-1111042" target="_blank" rel="noopener" class="button-link">KaryaKarsa Video</a>
-      <a href="https://me-page.com/p/918697/Ledakjitu" target="_blank" rel="noopener" class="button-link">Me-Page</a>
-      <a href="https://ledakjitu.tumblr.com" target="_blank" rel="noopener" class="button-link">Tumblr</a>
-      <a href="https://id.pinterest.com/ledakjitu/" target="_blank" rel="noopener" class="button-link">Pinterest</a>
-      <a href="https://www.linkedin.com/in/ledak-jitu-234a68385/" target="_blank" rel="noopener" class="button-link">LinkedIn</a>
-      <a href="https://www.deviantart.com/ledakjitu/about" target="_blank" rel="noopener" class="button-link">DeviantArt</a>
-      <a href="https://s.id/Ledakjitu" target="_blank" rel="noopener" class="button-link">Short ID</a>
-      <a href="https://bit.ly/m/LedakJitu" target="_blank" rel="noopener" class="button-link">Bitly</a>
-      <a href="https://tap.bio/@LedakJitu" target="_blank" rel="noopener" class="button-link">Tap Bio</a>
-      <a href="https://msha.ke/ledakjitu" target="_blank" rel="noopener" class="button-link">MSHA</a>
-      <a href="https://desty.page/ledakjitu" target="_blank" rel="noopener" class="button-link">Desty Page</a>
-      <a href="https://desty.store/ledakjitu" target="_blank" rel="noopener" class="button-link">Desty Store</a>
-      <a href="https://desty.store/ledakjitu/catalog" target="_blank" rel="noopener" class="button-link">Desty Catalog</a>
-      <a href="https://ledakjitu.nexaseller.com/" target="_blank" rel="noopener" class="button-link">NexaSeller</a>
-      <a href="https://medium.com/@seosementara/ledakgg-selaku-afiliasi-game-online-26b66f4e63e6" target="_blank" rel="noopener" class="button-link">Medium Artikel</a>
-      <a href="https://ledakjitu.github.io/" target="_blank" rel="noopener" class="button-link">GitHub Pages</a>
+      <div class="link-card">
+        <a href="https://heylink.me/ledakjitu/cv/20078691/" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linktree.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon HeyLink"></amp-img>
+          <div class="link-desc">Halaman CV personal di HeyLink untuk profil profesional.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://heycard.link/ledakjitu" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linktree.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon HeyCard"></amp-img>
+          <div class="link-desc">Kartu digital interaktif untuk koneksi cepat.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://heylink.me/ledakjitu/" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linktree.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon HeyLink Utama"></amp-img>
+          <div class="link-desc">Halaman utama HeyLink dengan semua tautan.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://linktr.ee/ledakjitu" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linktree.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Linktree"></amp-img>
+          <div class="link-desc">Bio link lengkap untuk berbagai platform sosial.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://www.karyakarsa.com/ledakjitu/info" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/blogger.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon KaryaKarsa"></amp-img>
+          <div class="link-desc">Informasi lengkap tentang proyek dan layanan.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://www.karyakarsa.com/ledakjitu/v-1111042" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/youtube.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Video"></amp-img>
+          <div class="link-desc">Video konten eksklusif dari LedakJitu.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://me-page.com/p/918697/Ledakjitu" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/aboutdotme.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon MePage"></amp-img>
+          <div class="link-desc">Halaman pribadi dengan profil dan tautan.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://ledakjitu.tumblr.com" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/tumblr.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Tumblr"></amp-img>
+          <div class="link-desc">Blog Tumblr untuk konten kreatif dan update.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://id.pinterest.com/ledakjitu/" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/pinterest.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Pinterest"></amp-img>
+          <div class="link-desc">Koleksi gambar dan inspirasi di Pinterest.</div>
+        </a>
+        <amp-social-share type="pinterest" data-param-url="https://ledakjitu.github.io/" data-param-media="https://ledakjitu.github.io/gambar/Gemini_Generated_Image_p6oq1hp6oq1hp6oq.png"></amp-social-share>
+      </div>
+      <div class="link-card">
+        <a href="https://www.linkedin.com/in/ledak-jitu-234a68385/" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linkedin.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon LinkedIn"></amp-img>
+          <div class="link-desc">Profil profesional di LinkedIn untuk networking.</div>
+        </a>
+        <amp-social-share type="linkedin"></amp-social-share>
+      </div>
+      <div class="link-card">
+        <a href="https://www.deviantart.com/ledakjitu/about" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/deviantart.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon DeviantArt"></amp-img>
+          <div class="link-desc">Galeri seni dan karya digital unik.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://s.id/Ledakjitu" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/bitly.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Short ID"></amp-img>
+          <div class="link-desc">Link pendek untuk akses cepat.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://bit.ly/m/LedakJitu" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/bitly.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Bitly"></amp-img>
+          <div class="link-desc">URL singkat untuk berbagi mudah.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://tap.bio/@LedakJitu" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linktree.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Tap Bio"></amp-img>
+          <div class="link-desc">Bio link dengan desain modern.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://msha.ke/ledakjitu" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linktree.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon MSHA"></amp-img>
+          <div class="link-desc">Halaman khusus untuk tautan dan profil.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://desty.page/ledakjitu" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linktree.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Desty"></amp-img>
+          <div class="link-desc">Landing page dengan fitur interaktif.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://desty.store/ledakjitu" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/shopping.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Desty Store"></amp-img>
+          <div class="link-desc">Toko online untuk produk dan merchandise.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://desty.store/ledakjitu/catalog" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/shopping.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Catalog"></amp-img>
+          <div class="link-desc">Katalog lengkap produk dan layanan.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://ledakjitu.nexaseller.com/" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/ebay.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon NexaSeller"></amp-img>
+          <div class="link-desc">Platform e-commerce untuk penjualan.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://medium.com/@seosementara/ledakgg-selaku-afiliasi-game-online-26b66f4e63e6" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/medium.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon Medium"></amp-img>
+          <div class="link-desc">Artikel blog tentang afiliasi game online.</div>
+        </a>
+      </div>
+      <div class="link-card">
+        <a href="https://ledakjitu.github.io/" target="_blank" rel="noopener">
+          <amp-img src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/github.svg" class="link-icon" layout="fixed" width="50" height="50" alt="Ikon GitHub"></amp-img>
+          <div class="link-desc">Halaman GitHub untuk proyek dan kode sumber.</div>
+        </a>
+      </div>
     </div>
   </section>
 
