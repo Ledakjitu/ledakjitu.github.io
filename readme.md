@@ -20,6 +20,7 @@ Ini adalah situs statis resmi yang di-host langsung menggunakan [GitHub Pages](h
 - [bit.ly/m/LedakJitu](https://bit.ly/m/LedakJitu)
 - [tap.bio/@LedakJitu](https://tap.bio/@LedakJitu)
 - [msha.ke/ledakjitu](https://msha.ke/ledakjitu)
+[![LedakJitu](https://github.com/Ledakjitu/ledakjitu.github.io/blob/main/gambar/Gemini_Generated_Image_p6oq1hp6oq1hp6oq.png?raw=true)](https://ledakjitu.com)
 
 ### Platform Kreator & Artikel
 - [Karyakarsa - Info](https://www.karyakarsa.com/ledakjitu/info)
